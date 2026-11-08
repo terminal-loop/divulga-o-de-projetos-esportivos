@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./imagems/icone.png">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="conteiner">
+        <header>
+            <img src="./imagems/imagem1.png" class="imagem1">
+            <div class="menu">
+                <a class="link" href="">HOME</a>
+                <a class="links" href="">MODALIDADES</a>
+                <a class="links" href="">LOCAIS</a>
+                <a class="links" href="">CALENDARIOS</a>
+                <a class="links" href="">NOTICIAS</a>
+                <a class="lopa" href=""><svg xmlns="http://w3.org" viewBox="0 -1 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg></a>
+                <!-- xmlns: dis que as regras aqi vao mudar, viewBox:dis onde vai comesar e onde termina
+                    fill: parte de dentro, stronke: perginta qual é a cor padrao do comteiner, 
+                    stroke-width: especura da linha, -->
+            </div>
+
+        </header>
+
+        <div class="hero">
+            <h1>ENCONTRE O SEU ESPORTE <br> EM TRÊS LAGOAS</h1>
+            <p>Descubra projetos, treinos e locais de pratica perto de você</p>
+            <a href="treinos" class="botao"><strong>VER TREINOS</strong></a>
+        </div>
+
+        <main>
+            <div>
+                <p class="places-title"><strong>LOCAIS PARA PRÁTICAR</strong></p>
+                <div class="organizador">
+                    <div>
+                        <img class="mapa" src="./imagems/imagem2.png" width="100%" height="100%">
+                    </div>
+                    <div class="places-list">
+                        <a href="" class="place-card">
+                            <img src="./imagems/estadio madrugadao.jpg" class="estadio">
+                            <div>
+                                <h2><svg xmlns="http://w3.org" viewBox="0 -1 24 24" width="20px" height="20px"
+                                        fill="#000">
+                                        <path
+                                            d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                                    </svg>Estadio Madrugadao</h2>
+                                <div class="card-body">
+                                    <p>.Rua Hamilcar Congro Bastos</p>
+                                    <p>.esquina da Avenida Ranulfo Marques Leal</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="place-card">
+                            <img src="./imagems/ginásio polioesportivo tres lagoas.jpg" class="estadio">
+                            <div>
+                                <h2><svg xmlns="http://w3.org" viewBox="0 -1 24 24" width="20px" height="20px"
+                                        fill="#000">
+                                        <path
+                                            d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                                    </svg>Estadio Madrugadao</h2>
+                                <div class="card-body">
+                                    <p>.Rua Hamilcar Congro Bastos</p>
+                                    <p>.esquina da Avenida Ranulfo Marques Leal</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+
+
+        <div class="meio">
+            <div class="sport-card">
+                <p class="places-title"><strong>AGENDA ESPORTIVA</strong></p>
+
+                <div class="organizador">
+                    <!-- futebol -->
+                    <botton class="esports">
+                        <!-- imagem do esporte -->
+                        <img class="bola" src="./imagems/bola de futebol.png" alt="bola de futebol">
+                        <div class="sport-card__header">
+                            <h1 class="name">FUTEBOL</h1>
+                            <h3>Escolinha sub-15</h3>
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 -1 24 24" width="35px" height="35px" fill="#000">
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>augun lugar
+
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 0 24 24" width="35px" height="35px" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>auguma hora
+                        </div>
+
+                    </botton>
+                     <!-- volei -->
+                    <div class="esports">
+                        <!-- imagem do esporte -->
+                        <img class="bola" src="./imagems/BOLA DE VOLEI.jpg" alt="bola de futebol">
+                        <div class="sport-card__header">
+                            <h1 class="name">Voleibol</h1>
+                            <h3>Escolinha sub-15</h3>
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 -1 24 24" width="35px" height="35px" fill="#000">
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>augun lugar
+
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 0 24 24" width="35px" height="35px" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>auguma hora
+                        </div>
+
+
+
+
+                    </div>
+                    <!-- basquete -->
+                    <div class="esports">
+                        <!-- imagem do esporte -->
+                        <img class="bola" src="./imagems/BOLA DE BASQUETE.jpg" alt="bola de futebol">
+                        <div class="sport-card__header">
+                            <h1 class="name">Basquete</h1>
+                            <h3>Escolinha sub-15</h3>
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 -1 24 24" width="35px" height="35px" fill="#000">
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>augun lugar
+
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 0 24 24" width="35px" height="35px" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>auguma hora
+                        </div>
+
+
+
+
+                    </div>
+                    <!-- handebol -->
+                    <div class="esports">
+                        <!-- imagem do esporte -->
+                        <img class="bola" src="./imagems/hendibol.jpg" alt="bola de futebol">
+                        <div class="sport-card__header">
+                            <h1 class="name">Handebol</h1>
+                            <h3>Escolinha sub-15</h3>
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 -1 24 24" width="35px" height="35px" fill="#000">
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>augun lugar
+
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 0 24 24" width="35px" height="35px" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>auguma hora
+                        </div>
+
+
+
+
+                    </div>
+                    <!-- natação -->
+                    <div class="esports">
+                        <!-- imagem do esporte -->
+                        <img class="natação" src="./imagems/natação.jpg" alt="pessoa nadando">
+                        <div class="sport-card__header">
+                            <h1 class="name">Natação</h1>
+                            <h3>Escolinha sub-15</h3>
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 -1 24 24" width="35px" height="35px" fill="#000">
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>augun lugar
+
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 0 24 24" width="35px" height="35px" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>auguma hora
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="retratil">
+                    <a href="futebol de campo.html" class="retratil_cards">
+                        <h5>futebol de campo</h5>
+                        <img src="./imagems/campo de futebol.png" class="campo_futebol">
+                    </a>
+                    <a href="futebol de campo.html" class="retratil_cards">
+                         <h5>futebol de salao</h5>
+                        <img src="./imagems/futebol de salao.png" class="campo_futebol">
+                        </a>
+                    <a href="futebol de campo.html" class="retratil_cards">
+                         <h5>futebol de area</h5>
+                         <img src="./imagems/futebol de area.png" class="campo_futebol">
+                    </a>
+                </div>
+
+
+                <div class="organizador">
+                    <!-- judo é carate -->
+                    <div class="esports">
+                        <!-- imagem do esporte -->
+                        <img class="bola" src="./imagems/facha de judo.png" alt="bola de futebol">
+                        <div class="sport-card__header">
+                            <h1 class="name">artes marciais</h1>
+                            <h3>Escolinha sub-15</h3>
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 -1 24 24" width="35px" height="35px" fill="#000">
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>augun lugar
+
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 0 24 24" width="35px" height="35px" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>auguma hora
+                        </div>
+
+
+
+
+                    </div>
+                     <!-- xadres -->
+                    <div class="esports">
+                        <!-- imagem do esporte -->
+                        <img class="bola" src="./imagems/xadres.png" alt="bola de futebol">
+                        <div class="sport-card__header">
+                            <h1 class="name">xadres</h1>
+                            <h3>Escolinha sub-15</h3>
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 -1 24 24" width="35px" height="35px" fill="#000">
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>augun lugar
+
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 0 24 24" width="35px" height="35px" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>auguma hora
+                        </div>
+
+
+
+
+                    </div>
+                    <!-- Atletismo -->
+                    <div class="esports">
+                        <!-- imagem do esporte -->
+                        <img class="bola" src="./imagems/atletismo.png" alt="bola de futebol">
+                        <div class="sport-card__header">
+                            <h1 class="name">Atletismo</h1>
+                            <h3>Escolinha sub-15</h3>
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 -1 24 24" width="35px" height="35px" fill="#000">
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>augun lugar
+
+                        </div>
+                        <div class="sport-card__location">
+                            <svg xmlns="http://w3.org" viewBox="0 0 24 24" width="35px" height="35px" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>auguma hora
+                        </div>
+
+
+
+
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p>&copy; 2026 | Grupo: [bogamil neto], [santos aredes] e [escobar] | Turma:[info 2ºb]</p>
+    </footer>
+    </div>
+</body>
+
+</html>

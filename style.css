@@ -1,0 +1,326 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* tegs em jeral */
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    width: 100%;
+    height: 700px;
+    background: rgb(240 244 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #0C5FBB;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    /* margin-top: 60px; */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    color: rgb(245, 245, 245);
+    font-size: 100px;
+    text-align: center;
+}
+
+h2, h3 , h5{
+    margin-top: 0px;
+}
+
+
+/* topo da pagina */
+
+.conteiner {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.menu {
+    margin-right: 100px;
+    font-size: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Quando a tela for menor que 1024px (tablets e notebooks menores) */
+@media (max-width: 1024px) {
+    .menu {
+        font-size: 26px;
+        /* A letra diminui automaticamente */
+        gap: 15px;
+        /* O espaço entre as palavras diminui um pouco */
+    }
+
+    .top {
+        height: 50px;
+    }
+}
+
+.imagem1 {
+    height: 100%;
+    margin-left: 200px;
+}
+
+.hero {
+    width: 100vw;
+    height: 700px;
+    background: rgb(98, 172, 250);
+    display: flex;
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*divisoria*/
+    background-image: linear-gradient(rgba(4, 49, 247, 0.675), rgba(0, 40, 142, 0.675)), url('./imagems/jovens-sorrindo.jpg');
+    background-size: cover;
+    /* Faz a imagem esticar e cobrir a tela toda sem distorcer */
+    background-position: center;
+    /* Mantém o meio da imagem sempre centralizado na tela */
+    background-repeat: no-repeat;
+    /* Impede que a imagem fique se repetindo em mosaico */
+}
+
+.link {
+    /* ele é o locau onde você esta na pagina */
+    color: rgb(31, 111, 165);
+}
+
+.link::after {
+    height: 3px;
+    display: block;
+    content: '';
+    background: rgb(31, 111, 165);
+    margin: 10px 0 0 0;
+}
+
+.lopa {
+    width: 40px;
+    height: 40px;
+    color: black;
+
+}
+
+.lopa:hover {
+    color: rgb(31, 111, 165);
+    transform: scale(1.05);
+}
+
+.links {
+    color: black;
+
+}
+
+.links:hover {
+    color: rgb(31, 111, 165);
+    transform: scale(1.05);
+}
+
+.botao {
+    width: 350px;
+    height: 100px;
+    font-size: 30px;
+    background: #0C5FBB;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s linear;
+}
+
+.botao:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+/* meio do site */
+
+.organizador {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.places-title {
+    color: #000;
+    font-size: 40px;
+    margin: 0;
+}
+
+.place-card {
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    background: #fff;
+    transition: all 0.2s linear;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding-left: 20PX;
+}
+
+.places-list {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.mapa {
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.place-card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    margin: 0;
+    color: #000;
+    font-size: 20px;
+}
+
+.estadio {
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.nome {
+    font-size: 14px;
+}
+
+
+
+
+.meio {
+    width: 100%;
+    height: 1200px;
+    background: rgb(233, 238, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sport-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.esports {
+    width: 400px;
+    height: 500px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.esports:hover {
+    transform: scale(1.05);
+    transition: all 0.1s linear;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.bola {
+    width: 100px;
+    height: 100px;
+    margin: 15px 0 30px 20px;
+}
+
+.natação{
+    width: 200px;
+    height: 100px;
+    margin: 15px 0 30px 20px;
+}
+
+.name{
+    color: #000;
+    text-align: start;
+    margin-top: 0px;
+    font-size: 50PX;
+}
+
+.sport-card__header{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.sport-card__location{
+    display: flex;
+    font-size:35px;
+    margin-left: 20px;
+    gap: 10px;
+    display: flex;
+    align-items: end;
+}
+
+
+
+
+.retratil{
+    width: 100%;
+    height: 0px; 
+    border-radius: 15px;
+    gap: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.retratil_cards{
+    width: 90%;
+    height: 200px;
+    border-radius: 15px;
+    background: #fff;
+    overflow: hidden;
+    font-size: 100px;
+    display: flex;
+    gap: 15px;
+}
+
+.retratil_cards:hover {
+    transform: scale(1.01);
+    transition: all 0.1s linear;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.campo_futebol{
+    width: 300px;
+    height: 185px;
+}
