@@ -97,7 +97,7 @@ h2, h3 , h5{
     align-items: center;
     justify-content: center;
     /*divisoria*/
-    background-image: linear-gradient(rgba(4, 49, 247, 0.675), rgba(0, 40, 142, 0.675)), url('./imagems/jovens-sorrindo.jpg');
+    background-image: linear-gradient(rgba(4, 49, 247, 0.675), rgba(0, 40, 142, 0.675)), url('imagems/jovens-sorrindo.jpg');
     background-size: cover;
     /* Faz a imagem esticar e cobrir a tela toda sem distorcer */
     background-position: center;
